@@ -1,7 +1,35 @@
 # Bookstore MERN Projekt
-
+---
 ## Einleitung
 Dies ist ein Full-Stack-Projekt, das auf dem MERN-Stack basiert: MongoDB, Express.js, React und Node.js. Das Projekt ist eine Buchverwaltungsanwendung, die es Benutzern ermöglicht, Bücher zu erstellen, anzuzeigen, zu bearbeiten und zu löschen.
+
+---
+
+## Video-Demonstration
+
+Schau dir dieses kurze Video zur Demonstration der Funktionalität an:
+
+[![Video Thumbnail](https://github.com/user-attachments/assets/dcfe0b6c-fff1-4025-9073-167ce728bfb5)](https://www.youtube.com/watch?v=R3nCoJjif7Q&feature=youtu.be)
+
+---
+## Screenshots
+
+Als Tabelle
+<img width="2550" alt="bookstore_MERN_projekt" src="https://github.com/user-attachments/assets/cb2122a3-335f-4164-be0b-00fc725aeb72">
+
+---
+Als Blog-Card
+<img width="2558" alt="bookstore_MERN_projekt_blog_card" src="https://github.com/user-attachments/assets/273cc57c-c7dc-4994-8c49-9804e9cfba65">
+
+---
+Buch erstellen
+<img width="2560" alt="bookstore_MERN_projekt_buch_erstellen" src="https://github.com/user-attachments/assets/f39bb78c-6aa0-43c0-aba8-15e97a43f134">
+
+---
+Buch erstellt! <br /> Unten in der linken Ecke wird immer ein Pop-up-Fenster von Snackbar eingeblendet, wenn man CRUD Operationen durchführt.
+<img width="2560" alt="bookstore_MERN_projekt_buch_erstellt" src="https://github.com/user-attachments/assets/c2f0906e-99b6-419c-b74e-9fa7f8226be0">
+
+---
 
 ## Features
 - **Bücher erstellen, lesen, aktualisieren und löschen (CRUD)**
@@ -46,9 +74,9 @@ Dies ist ein Full-Stack-Projekt, das auf dem MERN-Stack basiert: MongoDB, Expres
     ```
 4. Umgebungsvariablen einrichten
    - Erstelle eine `.env` Datei im Backend-Verzeichnis und füge die folgenden Umgebungsvariablen hinzu:
-     ```
+     ```javascript
      PORT=5000
-     MONGO_URI=your_mongodb_uri
+     MONGO_URI= "your_mongodb_uri"
      ```
 5. Backend starten
     ```bash
