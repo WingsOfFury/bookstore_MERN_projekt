@@ -38,7 +38,7 @@ Buch erstellt! <br /> Unten in der linken Ecke wird immer ein Pop-up-Fenster von
 - **React Router für die Navigation**
 - **Postman zur API-Tests**
 
-## Technologie-Stack
+## Tech-Stack
 ### Frontend
 - **React**: Für den Aufbau der Benutzeroberfläche
 - **React Router Dom**: Für die Verwaltung des Client-seitigen Routings
@@ -352,7 +352,7 @@ Buch erstellt! <br /> Unten in der linken Ecke wird immer ein Pop-up-Fenster von
 - **DELETE** `/api/books/:id` : Ein Buch löschen
 
 ## Tests
-Verwende Postman, um die API-Endpunkte zu testen:
+Ich habe Postman verwendet, um die API-Endpunkte zu testen:
 - **Erstelle ein neues Buch**: Sende eine POST-Anfrage an `/api/books` mit dem Buchobjekt im Anfragetext.
 - **Zeige alle Bücher**: Sende eine GET-Anfrage an `/api/books`.
 - **Zeige ein bestimmtes Buch**: Sende eine GET-Anfrage an `/api/books/:id`.
